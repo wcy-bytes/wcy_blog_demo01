@@ -1,0 +1,11 @@
+certifi==2021.5.30
+Django==2.2
+django-ckeditor==6.3.2
+django-js-asset==2.0.0
+importlib-metadata==4.8.3
+Markdown==3.3.7
+pytz==2023.3.post1
+sqlparse==0.4.4
+typing_extensions==4.1.1
+wincertstore==0.2
+zipp==3.6.0

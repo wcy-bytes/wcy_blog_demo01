@@ -1,0 +1,25 @@
+<!-- extends表明此页面继承自 base.html 文件 -->
+{% extends "base.html" %}
+{% load staticfiles %}
+
+<!-- 写入 base.html 中定义的 title -->
+{% block title %}
+    首页
+{% endblock title %}
+
+{% block content %}
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+{#                <img src="/media/home/wcy_header.jpg" alt="..." style="">#}
+
+                <div>
+                    {{ data.detail | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
