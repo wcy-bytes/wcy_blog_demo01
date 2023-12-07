@@ -6,7 +6,7 @@ from django.db import models
 
 class Info(models.Model):
 
-    # 信息标题 例如 Home, Groups等等...
+    # 信息标题 例如 Home, Pages等等...
     title = models.CharField(max_length=100)
 
     # 详细信息
